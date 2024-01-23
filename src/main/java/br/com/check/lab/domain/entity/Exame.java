@@ -1,4 +1,4 @@
-package br.com.check.lab.entity;
+package br.com.check.lab.domain.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
