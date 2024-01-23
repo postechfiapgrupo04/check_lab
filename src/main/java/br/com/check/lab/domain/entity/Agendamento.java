@@ -1,4 +1,4 @@
-package br.com.check.lab.entity;
+package br.com.check.lab.domain.entity;
 
 
 import jakarta.persistence.*;
@@ -24,8 +24,13 @@ public class Agendamento {
 
     @OneToMany
     private List<Exame> exames = new ArrayList<>();
+
     private LocalDateTime data;
 
     @OneToOne
     private Paciente paciente;
+
+    @Enumerated(EnumType.STRING)
+    private TipoConfirmacao situacao;
+
 }
