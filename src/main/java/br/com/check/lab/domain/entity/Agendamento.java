@@ -22,8 +22,8 @@ public class Agendamento {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToMany
-    private List<Exame> exames = new ArrayList<>();
+    @ManyToMany
+    private List<Exame> exames;
 
     private LocalDateTime data;
 
