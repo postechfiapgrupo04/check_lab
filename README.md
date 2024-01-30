@@ -6,3 +6,6 @@ O laboratório CheckLab está enfrentando problemas com o não comparecimento de
 Se tratando de Driven Domain Design, trabalharemos em um Subdomínio de Suporte, ou seja, um processo que auxilia o subdomínio principal.
 
 ## Wiki: https://github.com/postechfiapgrupo04/flow_check/wiki
+
+## COLLECTION (POSTMAN)
+https://drive.google.com/drive/folders/1lXo6bFX3ULyay81LTfJN2IaKZCTzegyq
