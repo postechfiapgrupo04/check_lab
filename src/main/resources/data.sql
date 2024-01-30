@@ -1,9 +1,9 @@
-insert into paciente(idade, cpf, nome) values (30, 1234567899, 'Jose da Silva');
-insert into paciente(idade, cpf, nome) values (22, 4564567899, 'Marcia da Silva');
-insert into paciente(idade, cpf, nome) values (35, 7894567899, 'Reginaldo Rossi');
-insert into paciente(idade, cpf, nome) values (17, 0004567899, 'Anthony Kiedis');
+insert into paciente(idade, cpf, nome) values (30, '1234567899', 'Jose da Silva');
+insert into paciente(idade, cpf, nome) values (22, '4564567899', 'Marcia da Silva');
+insert into paciente(idade, cpf, nome) values (35, '7894567899', 'Reginaldo Rossi');
+insert into paciente(idade, cpf, nome) values (17, '0004567899', 'Anthony Kiedis');
 
-insert into exame (nome) values ('hemograma');
+insert into exame (nome) values ('Hemograma');
 insert into exame (nome) values ('Glicemia');
 insert into exame (nome) values ('Colesterol');
 
